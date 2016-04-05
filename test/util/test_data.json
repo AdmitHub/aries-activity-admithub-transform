@@ -1,0 +1,326 @@
+{    "attributes": [
+      {
+        "name": "text245",
+        "value": "",
+        "mappingName": "Nick Name"
+      },
+      {
+        "name": "text251",
+        "value": "",
+        "mappingName": "GSU Email"
+      },
+      {
+        "name": "date623",
+        "value": "",
+        "mappingName": "Incept Registration Date"
+      },
+      {
+        "name": "date625",
+        "value": "",
+        "mappingName": "Incept Attended Date"
+      },
+      {
+        "name": "date1785",
+        "value": "",
+        "mappingName": "Date of Birth"
+      },
+      {
+        "name": "text4347",
+        "value": "",
+        "mappingName": "TXTPhone"
+      },
+      {
+        "name": "text4621",
+        "value": "",
+        "mappingName": "Missing_Master_Promissory_Loan"
+      },
+      {
+        "name": "text4641",
+        "value": "",
+        "mappingName": "Missing_Entrance_Loan"
+      },
+      {
+        "name": "text601",
+        "value": "",
+        "mappingName": "County"
+      },
+      {
+        "name": "text611",
+        "value": "",
+        "mappingName": "Panther ID"
+      },
+      {
+        "name": "text2421",
+        "value": "",
+        "mappingName": "FAFSA_Incomplete"
+      },
+      {
+        "name": "date2921",
+        "value": "",
+        "mappingName": "Housing_Deposit_Date"
+      },
+      {
+        "name": "text2961",
+        "value": "",
+        "mappingName": "Incept_Attended"
+      },
+      {
+        "name": "text445",
+        "value": "Freshman",
+        "mappingName": "Student Type"
+      },
+      {
+        "name": "text447",
+        "value": "16 Fall",
+        "mappingName": "Entry Term"
+      },
+      {
+        "name": "text453",
+        "value": "",
+        "mappingName": "Admit Type"
+      },
+      {
+        "name": "text457",
+        "value": "",
+        "mappingName": "Housing Preference"
+      },
+      {
+        "name": "text459",
+        "value": "",
+        "mappingName": "Residency"
+      },
+      {
+        "name": "text647",
+        "value": "",
+        "mappingName": "Level of Interest in GSU"
+      },
+      {
+        "name": "text653",
+        "value": "Prospect",
+        "mappingName": "Student Status Category"
+      },
+      {
+        "name": "id",
+        "value": "2521",
+        "mappingName": "ID"
+      },
+      {
+        "name": "textmessageoptout",
+        "value": "",
+        "mappingName": "Text Message Opt Out"
+      },
+      {
+        "name": "address1",
+        "value": "3425 Yawkey Avenue",
+        "mappingName": "Address Line 1"
+      },
+      {
+        "name": "address2",
+        "value": "",
+        "mappingName": "Address Line 2"
+      },
+      {
+        "name": "city",
+        "value": "Sarasota",
+        "mappingName": "City"
+      },
+      {
+        "name": "email",
+        "value": "Dkphonehome@yahoo.com",
+        "mappingName": "E-mail"
+      },
+      {
+        "name": "firstname",
+        "value": "Dianne",
+        "mappingName": "First Name"
+      },
+      {
+        "name": "lastname",
+        "value": "Kaiyoorawongs",
+        "mappingName": "Last Name"
+      },
+      {
+        "name": "middlename",
+        "value": "Johnny",
+        "mappingName": "Middle Name"
+      },
+      {
+        "name": "state",
+        "value": "FL",
+        "mappingName": "State/Province"
+      },
+      {
+        "name": "zip",
+        "value": "34232-5348",
+        "mappingName": "Zip"
+      },
+      {
+        "name": "numeric1351",
+        "value": "",
+        "mappingName": "Plan to Live Where"
+      }
+    ]
+}
+{    "attributes": [
+      {
+        "name": "text245",
+        "value": "",
+        "mappingName": "Nick Name"
+      },
+      {
+        "name": "text251",
+        "value": "",
+        "mappingName": "GSU Email"
+      },
+      {
+        "name": "date623",
+        "value": "",
+        "mappingName": "Incept Registration Date"
+      },
+      {
+        "name": "date625",
+        "value": "",
+        "mappingName": "Incept Attended Date"
+      },
+      {
+        "name": "date1785",
+        "value": "2/26/1994",
+        "mappingName": "Date of Birth"
+      },
+      {
+        "name": "text4347",
+        "value": "",
+        "mappingName": "TXTPhone"
+      },
+      {
+        "name": "text4621",
+        "value": "",
+        "mappingName": "Missing_Master_Promissory_Loan"
+      },
+      {
+        "name": "text4641",
+        "value": "",
+        "mappingName": "Missing_Entrance_Loan"
+      },
+      {
+        "name": "text601",
+        "value": "",
+        "mappingName": "County"
+      },
+      {
+        "name": "text611",
+        "value": "",
+        "mappingName": "Panther ID"
+      },
+      {
+        "name": "text2421",
+        "value": "",
+        "mappingName": "FAFSA_Incomplete"
+      },
+      {
+        "name": "date2921",
+        "value": "",
+        "mappingName": "Housing_Deposit_Date"
+      },
+      {
+        "name": "text2961",
+        "value": "",
+        "mappingName": "Incept_Attended"
+      },
+      {
+        "name": "text445",
+        "value": "Freshman",
+        "mappingName": "Student Type"
+      },
+      {
+        "name": "text447",
+        "value": "12 Fall",
+        "mappingName": "Entry Term"
+      },
+      {
+        "name": "text453",
+        "value": "",
+        "mappingName": "Admit Type"
+      },
+      {
+        "name": "text457",
+        "value": "",
+        "mappingName": "Housing Preference"
+      },
+      {
+        "name": "text459",
+        "value": "",
+        "mappingName": "Residency"
+      },
+      {
+        "name": "text647",
+        "value": "",
+        "mappingName": "Level of Interest in GSU"
+      },
+      {
+        "name": "text653",
+        "value": "Prospect",
+        "mappingName": "Student Status Category"
+      },
+      {
+        "name": "id",
+        "value": "2521",
+        "mappingName": "ID"
+      },
+      {
+        "name": "textmessageoptout",
+        "value": "",
+        "mappingName": "Text Message Opt Out"
+      },
+      {
+        "name": "address1",
+        "value": "3425 Yawkey Avenue",
+        "mappingName": "Address Line 1"
+      },
+      {
+        "name": "address2",
+        "value": "",
+        "mappingName": "Address Line 2"
+      },
+      {
+        "name": "city",
+        "value": "Sarasota",
+        "mappingName": "City"
+      },
+      {
+        "name": "email",
+        "value": "Dkphonehome@yahoo.com",
+        "mappingName": "E-mail"
+      },
+      {
+        "name": "firstname",
+        "value": "Dianne",
+        "mappingName": "First Name"
+      },
+      {
+        "name": "lastname",
+        "value": "Kaiyoorawongs",
+        "mappingName": "Last Name"
+      },
+      {
+        "name": "middlename",
+        "value": "",
+        "mappingName": "Middle Name"
+      },
+      {
+        "name": "state",
+        "value": "FL",
+        "mappingName": "State/Province"
+      },
+      {
+        "name": "zip",
+        "value": "34232-5348",
+        "mappingName": "Zip"
+      },
+      {
+        "name": "numeric1351",
+        "value": "",
+        "mappingName": "Plan to Live Where"
+      }
+    ]
+}
