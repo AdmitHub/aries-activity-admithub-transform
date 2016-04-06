@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "JSONStream": "^1.1.1",
-    "astronomer-aries": "astronomerio/aries",
+    "aries-data": "aries-data/aries-data",
     "lodash.find": "^4.3.0",
     "lodash.has": "^4.3.0",
     "lodash.indexof": "^4.0.2",
