@@ -27,6 +27,7 @@
     "astronomer-aries": "astronomerio/aries",
     "lodash.find": "^4.3.0",
     "lodash.has": "^4.3.0",
-    "lodash.indexof": "^4.0.2"
+    "lodash.indexof": "^4.0.2",
+    "through2-map": "^2.0.0"
   }
 }
