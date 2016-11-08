@@ -4,6 +4,7 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
+    "build-image": "docker build -t astronomerio/admithub-transform .",
     "test": "babel-node test/test.js | faucet",
     "tail": "tail -f app.log | bunyan -o short"
   },
