@@ -4,6 +4,7 @@ import path from 'path';
 import Transform from '../lib/index.js';
 import JSONStream from 'JSONStream';
 import intersect from 'lodash.intersection';
+import incomingData from '../test/util/test-object.json'
 
 describe('Transform', function() {
     it('should be piped through all the pipes', async () => {
@@ -117,33 +118,33 @@ describe('Transform', function() {
         ];
         console.log(fields.length);
         const transformer = new Transform();
-        const filePath = path.join(__dirname, 'util/test_data.json');
-        const stream = fs.createReadStream(filePath, 'utf8').pipe(JSONStream.parse());
+        const stream = fs.createReadStream('./test/util/test-object.json');
         const dataStream = transformer.transformContact(stream);
+        const ws = fs.createWriteStream('foobar');
         let count = 0;
-        dataStream.on('readable', () => {
-            var chunk;
-            while(null !== (chunk = dataStream.read())){
-                 count = deepFind(chunk, fields);
-                 console.log('asserting');
-                 assert.equal(count, fields.length, 'all fields exist')
-            }
+        dataStream.on('data', (chunk) => {
+            console.log('piping');
+            count = deepFind(chunk, fields);
+            console.log('asserting');
+            assert.equal(count, fields.length, 'all fields exist')
         });
+        dataStream.pipe(ws);
     });
 });
 
 function deepFind(obj, fields) {
-           let counter = 0;
-           Object.keys(obj).forEach((key) => {
-               console.log('looping');
-               if (fields.includes(key) && intersect(Object.keys(obj[key]), fields).length == 1) {
-                   counter++;
-                   console.log('upped counter');
-               } else if (typeof obj[key] === 'object') {
-                   console.log('calling deepFind');
-                   this.deepFind(obj[key], fields);
-               }
-           });
-           console.log('returning counter' + counter);
-           return counter;
+    let counter = 0;
+    console.log(Object.keys(obj));
+    Object.keys(obj).forEach((key) => {
+        console.log('looping');
+        if (fields.includes(key) && intersect(Object.keys(obj[key]), fields).length == 1) {
+            counter++;
+            console.log('upped counter');
+        } else if (typeof obj[key] === 'object') {
+            console.log('calling deepFind');
+            deepFind(obj[key], fields);
         }
+    });
+    console.log('returning counter' + counter);
+    return counter;
+}
