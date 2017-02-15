@@ -115,6 +115,7 @@ describe('Transform', function() {
             'workStudyAmount',
             'workStudyAwardDate'
         ];
+        console.log(fields.length);
         const transformer = new Transform();
         const filePath = path.join(__dirname, 'util/test_data.json');
         const stream = fs.createReadStream(filePath, 'utf8').pipe(JSONStream.parse());

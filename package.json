@@ -31,6 +31,7 @@
     "lodash.indexof": "^4.0.2",
     "lodash.intersection": "^4.4.0",
     "mocha": "^3.2.0",
+    "moment": "^2.17.1",
     "through2-map": "^2.0.0"
   }
 }
