@@ -1,0 +1,9 @@
+{
+   "extends": "airbnb",
+    "plugins": ["babel"],
+    "parser": "babel-eslint",
+    "rules": {
+        "indent": ["error", 4, { "SwitchCase": 1 }],
+        "arrow-body-style": ["error", "as-needed", "requireReturnForObjectLiteral": true], 
+    }
+}
