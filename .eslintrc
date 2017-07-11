@@ -4,7 +4,7 @@
     "parser": "babel-eslint",
     "rules": {
         "indent": ["error", 4, { "SwitchCase": 1 }],
-        "arrow-body-style": ["error", "never"], 
+        "arrow-body-style": ["error", "always"], 
         "no-param-reassign": ["error", { "props": false }], 
         "class-methods-use-this": ["error", {"exceptMethods": [
             "transformID", 
