@@ -83,6 +83,7 @@
             "transformPermittedUser",
             "transformCollegeName", 
             "transformKnownUser",
+            "transformLastIntegrationDate",
             "transformGeorgia"
             ]}]
    }
